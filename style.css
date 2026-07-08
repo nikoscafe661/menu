@@ -1,0 +1,57 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#111;
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:30px;
+    background:#000;
+}
+
+header h1{
+    color:#d4af37;
+    margin:0;
+}
+
+header p{
+    color:#ccc;
+}
+
+.menu{
+    max-width:700px;
+    margin:20px auto;
+    padding:15px;
+}
+
+.category{
+    background:#1c1c1c;
+    color:#d4af37;
+    padding:18px;
+    margin:12px 0;
+    border-radius:10px;
+    font-size:22px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.items{
+    display:none;
+    background:#222;
+    border-radius:10px;
+    margin-top:5px;
+    padding:10px;
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    padding:10px 0;
+    border-bottom:1px solid #444;
+}
+
+.price{
+    color:#d4af37;
+}
